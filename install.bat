@@ -14,7 +14,7 @@ del python-installer.exe
 
 echo Python installation is complete.
 
-set "REPO_URL=https://github.com/youti1021/LAEC/archive/refs/heads/main.zip"
+set "REPO_URL=https://github.com/youti1021/SMP-project/archive/refs/heads/main.zip"
 set "OUTPUT_ZIP=LAEC-main.zip"
 set "EXTRACT_DIR=LAEC-main"
 
