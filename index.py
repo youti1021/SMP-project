@@ -61,7 +61,7 @@ def encode_text(text, encoding_map):
     encoded_str = ''
     for char in text:
         encoded_str += encoding_map.get(char, '') + '/'  # 매핑이 없으면 빈 문자열
-    return encoded_str.strip('/')
+    return encoded_str.strip(' / ')
 
 # 텍스트 디코딩 함수
 def decode_text(encoded_text, decoding_map):
